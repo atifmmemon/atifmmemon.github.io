@@ -37,18 +37,12 @@ a:hover { text-decoration: underline; }
 }
 
 .avatar {
+  display: block;
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #0066cc, #004a99);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
-  font-weight: 500;
+  object-fit: cover;
   margin: 0 auto 20px;
-  letter-spacing: 2px;
 }
 
 .sidebar h1 {
