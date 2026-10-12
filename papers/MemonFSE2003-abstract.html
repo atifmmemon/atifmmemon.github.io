@@ -1,83 +1,98 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <title>Regression testing of GUIs</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Regression testing of GUIs — Atif Memon</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
 </head>
 <body>
+  <aside class="sidebar">
+    <img src="../assets/photo.jpg" alt="Atif Memon" class="avatar" />
+    <h1>Atif Memon</h1>
+    <p class="affiliation">Apple</p>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/in/memonatif/" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </aside>
 
-<h1>Regression testing of GUIs</h1>
+  <nav class="topnav">
+    <a href="../index.html">About</a>
+    <a href="../publications.html" class="active">Publications</a>
+  </nav>
 
-<p>
-<b>Download:</b>
-<a href="MemonFSE2003.pdf">PDF</a>.
-</p>
-
-<p>
-&#8220;Regression testing of GUIs&#8221;
-by Atif M. Memon and Mary Lou Soffa.
-In <em>ESEC/FSE-11: Proceedings of the 9th European software engineering
-conference held jointly with 11th ACM SIGSOFT international symposium on
-Foundations of software engineering</em>, (New York, NY, USA), 2003, pp.
-118-127.
-</p>
-
-<h2>Abstract</h2>
-
-<p>
-Although graphical user interfaces (GUIs) constitute a large part of the
-software being developed today and are typically created using rapid
-prototyping, there are no effective regression testing techniques for
-GUIs. The needs of GUI regression testing differ from those of traditional
-software. When the structure of a GUI is modified, test cases from the
-original GUI are either reusable or unusable on the modified GUI. Since
-GUI test case generation is expensive, our goal is to make the unusable
-test cases usable. The idea of reusing these unusable (a.k.a. obsolete)
-test cases has not been explored before. In this paper, we show that for
-GUIs, the unusability of a large number of test cases is a serious
-problem. We present a novel GUI regression testing technique that first
-automatically determines the usable and unusable test cases from a test
-suite after a GUI modification. It then determines which of the unusable
-test cases can be repaired so they can execute on the modified GUI. The
-last step is to repair the test cases. Our technique is integrated into a
-GUI testing framework that, given a test case, automatically executes it
-on the GUI. We implemented our regression testing technique and
-demonstrate for two case studies that our approach is effective in that
-many of the test cases can be repaired, and is practical in terms of its
-time performance. 
-
-</p>
-<p>
-<b>Download:</b>
-<a href="MemonFSE2003.pdf">PDF</a>.
-</p>
-
-<p>
-<b>BibTeX entry:</b>
-</p>
-<pre>
-@inproceedings{MemonFSE2003,
-   author = {Atif M. Memon and Mary Lou Soffa},
-   title = {Regression testing of {GUIs}},
-   booktitle = {ESEC/FSE-11: Proceedings of the 9th European software
-	engineering conference held jointly with 11th ACM SIGSOFT
-	international symposium on Foundations of software engineering},
-   pages = {118--127},
-   publisher = {ACM Press},
-   address = {New York, NY, USA},
-   year = {2003},
-   isbn = {1-58113-743-5}
-}
-</pre>
-
-
-
-<hr />
-
-<p>
-Back to <a href="./">Atif Memon's Publications</a>.
-</p>
-
+  <main class="abstract">
+    <h1>Regression testing of GUIs</h1>
+    
+    <p>
+    <b>Download:</b>
+    <a href="MemonFSE2003.pdf">PDF</a>.
+    </p>
+    
+    <p>
+    &#8220;Regression testing of GUIs&#8221;
+    by Atif M. Memon and Mary Lou Soffa.
+    In <em>ESEC/FSE-11: Proceedings of the 9th European software engineering
+    conference held jointly with 11th ACM SIGSOFT international symposium on
+    Foundations of software engineering</em>, (New York, NY, USA), 2003, pp.
+    118-127.
+    </p>
+    
+    <h2>Abstract</h2>
+    
+    <p>
+    Although graphical user interfaces (GUIs) constitute a large part of the
+    software being developed today and are typically created using rapid
+    prototyping, there are no effective regression testing techniques for
+    GUIs. The needs of GUI regression testing differ from those of traditional
+    software. When the structure of a GUI is modified, test cases from the
+    original GUI are either reusable or unusable on the modified GUI. Since
+    GUI test case generation is expensive, our goal is to make the unusable
+    test cases usable. The idea of reusing these unusable (a.k.a. obsolete)
+    test cases has not been explored before. In this paper, we show that for
+    GUIs, the unusability of a large number of test cases is a serious
+    problem. We present a novel GUI regression testing technique that first
+    automatically determines the usable and unusable test cases from a test
+    suite after a GUI modification. It then determines which of the unusable
+    test cases can be repaired so they can execute on the modified GUI. The
+    last step is to repair the test cases. Our technique is integrated into a
+    GUI testing framework that, given a test case, automatically executes it
+    on the GUI. We implemented our regression testing technique and
+    demonstrate for two case studies that our approach is effective in that
+    many of the test cases can be repaired, and is practical in terms of its
+    time performance. 
+    
+    </p>
+    <p>
+    <b>Download:</b>
+    <a href="MemonFSE2003.pdf">PDF</a>.
+    </p>
+    
+    <p>
+    <b>BibTeX entry:</b>
+    </p>
+    <pre>
+    @inproceedings{MemonFSE2003,
+       author = {Atif M. Memon and Mary Lou Soffa},
+       title = {Regression testing of {GUIs}},
+       booktitle = {ESEC/FSE-11: Proceedings of the 9th European software
+    	engineering conference held jointly with 11th ACM SIGSOFT
+    	international symposium on Foundations of software engineering},
+       pages = {118--127},
+       publisher = {ACM Press},
+       address = {New York, NY, USA},
+       year = {2003},
+       isbn = {1-58113-743-5}
+    }
+    </pre>
+    
+    
+    
+    <hr />
+    
+    <p>
+    Back to <a href="../publications.html">Atif Memon's Publications</a>.
+    </p>
+  </main>
 </body>
 </html>

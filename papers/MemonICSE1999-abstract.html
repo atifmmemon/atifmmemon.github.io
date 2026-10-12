@@ -1,80 +1,95 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <title>Using a goal-driven approach to generate test cases for GUIs</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Using a goal-driven approach to generate test cases for GUIs — Atif Memon</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
 </head>
 <body>
+  <aside class="sidebar">
+    <img src="../assets/photo.jpg" alt="Atif Memon" class="avatar" />
+    <h1>Atif Memon</h1>
+    <p class="affiliation">Apple</p>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/in/memonatif/" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </aside>
 
-<h1>Using a goal-driven approach to generate test cases for GUIs</h1>
+  <nav class="topnav">
+    <a href="../index.html">About</a>
+    <a href="../publications.html" class="active">Publications</a>
+  </nav>
 
-<p>
-<b>Download:</b>
-<a href="MemonICSE1999.pdf">PDF</a>.
-</p>
-
-<p>
-&#8220;Using a goal-driven approach to generate test cases for GUIs&#8221;
-by Atif M. Memon, Martha E. Pollack, and Mary Lou Soffa.
-In <em>ICSE '99: Proceedings of the 21st international conference on
-Software engineering</em>, (Los Alamitos, CA, USA), 1999, pp. 257-266.
-</p>
-
-<h2>Abstract</h2>
-
-<p>
-The widespread use of GUIs for interacting with software is leading to the
-construction of more and more complex GUIs. With the growing complexity
-comes challenges in testing the correctness of a GUI and the underlying
-software. We present a new technique to automatically generate test cases
-for GUIs that exploits <b>planning</b>, a well developed and used
-technique in artificial intelligence. Given a set of operators, an initial
-state and a goal state, a planner produces a sequence of the operators
-that will change the initial state to the goal state. Our test case
-generation technique first analyzes a GUI and derives hierarchical
-planning operators from the actions in the GUI. The test designer
-determines the preconditions and effects of the hierarchical operators,
-which are then input into a planning system. With the knowledge of the GUI
-and the way in which the user will interact with the GUI, the test
-designer creates sets of initial and goal states. Given these initial and
-final states of the GUI, a hierarchical planner produces plans, or a set
-of test cases, that enable the goal state to be reached. Our technique has
-the additional benefit of putting verification commands into the test
-cases automatically. We implemented our technique by developing the GUI
-analyzer and extending a planner. We generated test cases for Microsoft's
-WordPad to demonstrate the viability and practicality of the approach. 
-
-</p>
-<p>
-<b>Download:</b>
-<a href="MemonICSE1999.pdf">PDF</a>.
-</p>
-
-<p>
-<b>BibTeX entry:</b>
-</p>
-<pre>
-@inproceedings{MemonICSE1999,
-   author = {Atif M. Memon and Martha E. Pollack and Mary Lou Soffa},
-   title = {Using a goal-driven approach to generate test cases for {GUIs}},
-   booktitle = {ICSE '99: Proceedings of the 21st international conference
-	on Software engineering},
-   pages = {257--266},
-   publisher = {IEEE Computer Society Press},
-   address = {Los Alamitos, CA, USA},
-   year = {1999},
-   isbn = {1-58113-074-0}
-}
-</pre>
-
-
-
-<hr />
-
-<p>
-Back to <a href="./">Atif Memon's Publications</a>.
-</p>
-
+  <main class="abstract">
+    <h1>Using a goal-driven approach to generate test cases for GUIs</h1>
+    
+    <p>
+    <b>Download:</b>
+    <a href="MemonICSE1999.pdf">PDF</a>.
+    </p>
+    
+    <p>
+    &#8220;Using a goal-driven approach to generate test cases for GUIs&#8221;
+    by Atif M. Memon, Martha E. Pollack, and Mary Lou Soffa.
+    In <em>ICSE '99: Proceedings of the 21st international conference on
+    Software engineering</em>, (Los Alamitos, CA, USA), 1999, pp. 257-266.
+    </p>
+    
+    <h2>Abstract</h2>
+    
+    <p>
+    The widespread use of GUIs for interacting with software is leading to the
+    construction of more and more complex GUIs. With the growing complexity
+    comes challenges in testing the correctness of a GUI and the underlying
+    software. We present a new technique to automatically generate test cases
+    for GUIs that exploits <b>planning</b>, a well developed and used
+    technique in artificial intelligence. Given a set of operators, an initial
+    state and a goal state, a planner produces a sequence of the operators
+    that will change the initial state to the goal state. Our test case
+    generation technique first analyzes a GUI and derives hierarchical
+    planning operators from the actions in the GUI. The test designer
+    determines the preconditions and effects of the hierarchical operators,
+    which are then input into a planning system. With the knowledge of the GUI
+    and the way in which the user will interact with the GUI, the test
+    designer creates sets of initial and goal states. Given these initial and
+    final states of the GUI, a hierarchical planner produces plans, or a set
+    of test cases, that enable the goal state to be reached. Our technique has
+    the additional benefit of putting verification commands into the test
+    cases automatically. We implemented our technique by developing the GUI
+    analyzer and extending a planner. We generated test cases for Microsoft's
+    WordPad to demonstrate the viability and practicality of the approach. 
+    
+    </p>
+    <p>
+    <b>Download:</b>
+    <a href="MemonICSE1999.pdf">PDF</a>.
+    </p>
+    
+    <p>
+    <b>BibTeX entry:</b>
+    </p>
+    <pre>
+    @inproceedings{MemonICSE1999,
+       author = {Atif M. Memon and Martha E. Pollack and Mary Lou Soffa},
+       title = {Using a goal-driven approach to generate test cases for {GUIs}},
+       booktitle = {ICSE '99: Proceedings of the 21st international conference
+    	on Software engineering},
+       pages = {257--266},
+       publisher = {IEEE Computer Society Press},
+       address = {Los Alamitos, CA, USA},
+       year = {1999},
+       isbn = {1-58113-074-0}
+    }
+    </pre>
+    
+    
+    
+    <hr />
+    
+    <p>
+    Back to <a href="../publications.html">Atif Memon's Publications</a>.
+    </p>
+  </main>
 </body>
 </html>

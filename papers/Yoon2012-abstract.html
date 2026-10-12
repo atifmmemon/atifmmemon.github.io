@@ -1,95 +1,110 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <title><a href="http://www.sciencedirect.com/science/article/pii/S0950584912002042?v=s5">Testing Component Compatibility in Evolving Configurations</a></title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><a href="http://www.sciencedirect.com/science/article/pii/S0950584912002042?v=s5">Testing Component Compatibility in Evolving Configurations</a> — Atif Memon</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
 </head>
 <body>
+  <aside class="sidebar">
+    <img src="../assets/photo.jpg" alt="Atif Memon" class="avatar" />
+    <h1>Atif Memon</h1>
+    <p class="affiliation">Apple</p>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/in/memonatif/" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </aside>
 
-<h1><a href="http://www.sciencedirect.com/science/article/pii/S0950584912002042?v=s5">Testing Component Compatibility in Evolving Configurations</a></h1>
+  <nav class="topnav">
+    <a href="../index.html">About</a>
+    <a href="../publications.html" class="active">Publications</a>
+  </nav>
 
-<p>
-<b>Download:</b>
-<a href="Yoon2012.pdf">PDF</a>.
-</p>
-
-<p>
-&#8220;<a
-href="http://www.sciencedirect.com/science/article/pii/S0950584912002042?v=s5">Testing
-Component Compatibility in Evolving Configurations</a>&#8221;
-by Ilchul Yoon, Alan Sussman.
-Atif Memon, and Adam Porter, <em>Information and Software Technology</em>,
-vol. 55, no. 2, 2013, pp. 445-458.
-</p>
-
-<h2>Abstract</h2>
-
-<p>
-Software components are increasingly assembled from other components. Each
-component may further depend on others, and each may have multiple active
-versions. The total number of configurations - &#8220;combinations of
-components and their versions&#8221; in use can be very large. Moreover,
-components are constantly being enhanced and new versions are being
-released. Component developers, therefore, spend considerable time and
-effort doing compatibility testing - &#8220;determining whether their
-components can be built correctly for all deployed configurations&#8221;
-both for existing active component versions and new releases. In previous
-work we developed Rachet, a distributed, cache-aware mechanism to support
-large-scale compatibility testing of component-based software with a fixed
-set of component versions. In this paper, we observe that it is too
-expensive to perform compatibility testing from scratch each time a new
-version of a component is released. We thus add a new dimension to Rachet:
-to perform incremental and prioritized compatibility testing. We describe
-algorithms to compute differences in component compatibilities between
-current and previous component builds, a formal test adequacy criterion
-based on covering the differences, and cache-aware configuration sampling
-and testing methods that attempt to reuse effort from previous testing
-sessions. Because testers are often interested in focusing test effort on
-newly released and modified components and their versions, we have
-developed a prioritization mechanism that enhances compatibility testing
-by examining the configurations&amp;#xa0;that test new or modified
-component versions first, while also distributing the work over a cluster
-of machines. We evaluate our approach using the 5-year evolution history
-of a scientific middleware component. Our results show that our methods
-can increase performance significantly over Rachet's previous retest-all
-approach and also tests important component compatibilities early in the
-overall testing process, making the process of compatibility testing
-practical for evolving components.
-
-
-<blockquote><b>Keywords:  </b>
-Compatibility</blockquote></p>
-<p>
-<b>Download:</b>
-<a href="Yoon2012.pdf">PDF</a>.
-</p>
-
-<p>
-<b>BibTeX entry:</b>
-</p>
-<pre>
-@article{Yoon2012,
-   author = {Ilchul Yoon and Alan Sussman and Atif Memon and Adam Porter},
-   title = {Testing Component Compatibility in Evolving Configurations},
-   journal = {Information and Software Technology},
-   volume = {55},
-   number = {2},
-   pages = {445-458},
-   year = {2013},
-   issn = {0950-5849},
-   url =
-	{http://www.sciencedirect.com/science/article/pii/S0950584912002042?v=s5}
-}
-</pre>
-
-
-
-<hr />
-
-<p>
-Back to <a href="./">Atif Memon's Publications</a>.
-</p>
-
+  <main class="abstract">
+    <h1><a href="http://www.sciencedirect.com/science/article/pii/S0950584912002042?v=s5">Testing Component Compatibility in Evolving Configurations</a></h1>
+    
+    <p>
+    <b>Download:</b>
+    <a href="Yoon2012.pdf">PDF</a>.
+    </p>
+    
+    <p>
+    &#8220;<a
+    href="http://www.sciencedirect.com/science/article/pii/S0950584912002042?v=s5">Testing
+    Component Compatibility in Evolving Configurations</a>&#8221;
+    by Ilchul Yoon, Alan Sussman.
+    Atif Memon, and Adam Porter, <em>Information and Software Technology</em>,
+    vol. 55, no. 2, 2013, pp. 445-458.
+    </p>
+    
+    <h2>Abstract</h2>
+    
+    <p>
+    Software components are increasingly assembled from other components. Each
+    component may further depend on others, and each may have multiple active
+    versions. The total number of configurations - &#8220;combinations of
+    components and their versions&#8221; in use can be very large. Moreover,
+    components are constantly being enhanced and new versions are being
+    released. Component developers, therefore, spend considerable time and
+    effort doing compatibility testing - &#8220;determining whether their
+    components can be built correctly for all deployed configurations&#8221;
+    both for existing active component versions and new releases. In previous
+    work we developed Rachet, a distributed, cache-aware mechanism to support
+    large-scale compatibility testing of component-based software with a fixed
+    set of component versions. In this paper, we observe that it is too
+    expensive to perform compatibility testing from scratch each time a new
+    version of a component is released. We thus add a new dimension to Rachet:
+    to perform incremental and prioritized compatibility testing. We describe
+    algorithms to compute differences in component compatibilities between
+    current and previous component builds, a formal test adequacy criterion
+    based on covering the differences, and cache-aware configuration sampling
+    and testing methods that attempt to reuse effort from previous testing
+    sessions. Because testers are often interested in focusing test effort on
+    newly released and modified components and their versions, we have
+    developed a prioritization mechanism that enhances compatibility testing
+    by examining the configurations&amp;#xa0;that test new or modified
+    component versions first, while also distributing the work over a cluster
+    of machines. We evaluate our approach using the 5-year evolution history
+    of a scientific middleware component. Our results show that our methods
+    can increase performance significantly over Rachet's previous retest-all
+    approach and also tests important component compatibilities early in the
+    overall testing process, making the process of compatibility testing
+    practical for evolving components.
+    
+    
+    <blockquote><b>Keywords:  </b>
+    Compatibility</blockquote></p>
+    <p>
+    <b>Download:</b>
+    <a href="Yoon2012.pdf">PDF</a>.
+    </p>
+    
+    <p>
+    <b>BibTeX entry:</b>
+    </p>
+    <pre>
+    @article{Yoon2012,
+       author = {Ilchul Yoon and Alan Sussman and Atif Memon and Adam Porter},
+       title = {Testing Component Compatibility in Evolving Configurations},
+       journal = {Information and Software Technology},
+       volume = {55},
+       number = {2},
+       pages = {445-458},
+       year = {2013},
+       issn = {0950-5849},
+       url =
+    	{http://www.sciencedirect.com/science/article/pii/S0950584912002042?v=s5}
+    }
+    </pre>
+    
+    
+    
+    <hr />
+    
+    <p>
+    Back to <a href="../publications.html">Atif Memon's Publications</a>.
+    </p>
+  </main>
 </body>
 </html>

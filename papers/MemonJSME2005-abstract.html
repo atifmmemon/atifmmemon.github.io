@@ -1,85 +1,100 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <title>Automating regression testing for evolving GUI software</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Automating regression testing for evolving GUI software — Atif Memon</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
 </head>
 <body>
+  <aside class="sidebar">
+    <img src="../assets/photo.jpg" alt="Atif Memon" class="avatar" />
+    <h1>Atif Memon</h1>
+    <p class="affiliation">Apple</p>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/in/memonatif/" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </aside>
 
-<h1>Automating regression testing for evolving GUI software</h1>
+  <nav class="topnav">
+    <a href="../index.html">About</a>
+    <a href="../publications.html" class="active">Publications</a>
+  </nav>
 
-<p>
-<b>Download:</b>
-<a href="MemonJSME2005.pdf">PDF</a>.
-</p>
-
-<p>
-&#8220;Automating regression testing for evolving GUI software&#8221;
-by Atif Memon, Adithya Nagarajan, and Qing Xie.
-<em>Journal of Software Maintenance and Evolution</em>, vol. 17, no. 1, Jan. 2005, pp. 27-64, John Wiley &amp; Sons, Inc..
-</p>
-
-<h2>Abstract</h2>
-
-<p>
-With the widespread deployment of broadband connections worldwide,
-software development and maintenance are increasingly being performed by
-multiple engineers, often working around-the-clock to maximize code churn
-rates. To ensure rapid quality assurance of such software, techniques such
-as nightly/daily building and smoke testing have become widespread since
-they often reveal bugs early in the software development process. During
-these builds, a development version of the software is checked out from
-the source code repository tree, compiled, linked, and (re)tested with the
-goal of (re)validating its basic functionality. Although successful for
-conventional software, smoke tests are difficult to develop and
-automatically re-run for software that has a graphical user interface
-(GUI). In this paper, we describe a framework called DART (Daily Automated
-Regression Tester) that addresses the needs of frequent and automated
-re-testing of GUI software. The key to our success is automation: DART
-automates everything from structural GUI analysis, smoke-test-case
-generation, test-oracle creation, to code instrumentation, test execution,
-coverage evaluation, regeneration of test cases, and their re-execution.
-Together with the operating system's task scheduler, DART can execute
-frequently with little input from the developer/tester to re-test the GUI
-software. We provide results of experiments showing the time taken and
-memory required for GUI analysis, test case and test oracle generation,
-and test execution. We empirically compare the relative costs of employing
-different levels of detail in the GUI test oracle. We also show the events
-and statements covered by the smoke test cases. 
-
-</p>
-<p>
-<b>Download:</b>
-<a href="MemonJSME2005.pdf">PDF</a>.
-</p>
-
-<p>
-<b>BibTeX entry:</b>
-</p>
-<pre>
-@article{MemonJSME2005,
-   author = {Atif Memon and Adithya Nagarajan and Qing Xie},
-   title = {Automating regression testing for evolving {GUI} software},
-   journal = {Journal of Software Maintenance and Evolution},
-   volume = {17},
-   number = {1},
-   pages = {27--64},
-   publisher = {John Wiley &amp; Sons, Inc.},
-   address = {New York, NY, USA},
-   month = jan,
-   year = {2005},
-   issn = {1532-060X}
-}
-</pre>
-
-
-
-<hr />
-
-<p>
-Back to <a href="./">Atif Memon's Publications</a>.
-</p>
-
+  <main class="abstract">
+    <h1>Automating regression testing for evolving GUI software</h1>
+    
+    <p>
+    <b>Download:</b>
+    <a href="MemonJSME2005.pdf">PDF</a>.
+    </p>
+    
+    <p>
+    &#8220;Automating regression testing for evolving GUI software&#8221;
+    by Atif Memon, Adithya Nagarajan, and Qing Xie.
+    <em>Journal of Software Maintenance and Evolution</em>, vol. 17, no. 1, Jan. 2005, pp. 27-64, John Wiley &amp; Sons, Inc..
+    </p>
+    
+    <h2>Abstract</h2>
+    
+    <p>
+    With the widespread deployment of broadband connections worldwide,
+    software development and maintenance are increasingly being performed by
+    multiple engineers, often working around-the-clock to maximize code churn
+    rates. To ensure rapid quality assurance of such software, techniques such
+    as nightly/daily building and smoke testing have become widespread since
+    they often reveal bugs early in the software development process. During
+    these builds, a development version of the software is checked out from
+    the source code repository tree, compiled, linked, and (re)tested with the
+    goal of (re)validating its basic functionality. Although successful for
+    conventional software, smoke tests are difficult to develop and
+    automatically re-run for software that has a graphical user interface
+    (GUI). In this paper, we describe a framework called DART (Daily Automated
+    Regression Tester) that addresses the needs of frequent and automated
+    re-testing of GUI software. The key to our success is automation: DART
+    automates everything from structural GUI analysis, smoke-test-case
+    generation, test-oracle creation, to code instrumentation, test execution,
+    coverage evaluation, regeneration of test cases, and their re-execution.
+    Together with the operating system's task scheduler, DART can execute
+    frequently with little input from the developer/tester to re-test the GUI
+    software. We provide results of experiments showing the time taken and
+    memory required for GUI analysis, test case and test oracle generation,
+    and test execution. We empirically compare the relative costs of employing
+    different levels of detail in the GUI test oracle. We also show the events
+    and statements covered by the smoke test cases. 
+    
+    </p>
+    <p>
+    <b>Download:</b>
+    <a href="MemonJSME2005.pdf">PDF</a>.
+    </p>
+    
+    <p>
+    <b>BibTeX entry:</b>
+    </p>
+    <pre>
+    @article{MemonJSME2005,
+       author = {Atif Memon and Adithya Nagarajan and Qing Xie},
+       title = {Automating regression testing for evolving {GUI} software},
+       journal = {Journal of Software Maintenance and Evolution},
+       volume = {17},
+       number = {1},
+       pages = {27--64},
+       publisher = {John Wiley &amp; Sons, Inc.},
+       address = {New York, NY, USA},
+       month = jan,
+       year = {2005},
+       issn = {1532-060X}
+    }
+    </pre>
+    
+    
+    
+    <hr />
+    
+    <p>
+    Back to <a href="../publications.html">Atif Memon's Publications</a>.
+    </p>
+  </main>
 </body>
 </html>

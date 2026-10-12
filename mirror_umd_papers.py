@@ -64,6 +64,23 @@ def main() -> int:
 
     print(f"\nDone: {ok} ok, {fail} failed")
 
+    # Rewrite abstract back-links (`href="./"` → repo-local publications.html).
+    fixed = 0
+    for html_path in PAPERS_DIR.glob("*-abstract.html"):
+        try:
+            text = html_path.read_text(encoding="utf-8", errors="replace")
+        except Exception:
+            continue
+        new_text = text.replace(
+            'href="./">Atif Memon',
+            'href="../publications.html">Atif Memon',
+        )
+        if new_text != text:
+            html_path.write_text(new_text, encoding="utf-8")
+            fixed += 1
+    if fixed:
+        print(f"Fixed back-links in {fixed} abstract pages")
+
     # Rewrite publications.html: swap UMD prefix with local relative path.
     new_html = html.replace(UMD_PREFIX, "papers/")
     if new_html != html:
