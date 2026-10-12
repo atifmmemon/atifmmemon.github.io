@@ -27,12 +27,17 @@
 
     <p>
     <b>Download:</b>
-    <a href="https://doi.org/10.1145/3540250.3558941" target="_blank" rel="noopener">DOI</a> &middot; <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3558941" target="_blank" rel="noopener">PDF (ACM)</a>.
+    <a href="ZhuLongWangMemon_FSE2022.pdf">PDF</a> &middot; <a href="https://doi.org/10.1145/3540250.3558941" target="_blank" rel="noopener">DOI</a> &middot; <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3558941" target="_blank" rel="noopener">PDF (ACM)</a>.
     </p>
 
     <p>
     &#8220;Improving ML-based Information Retrieval Software with User-driven Functional Testing and Defect Class Analysis&#8221; by Junjie Zhu, Teng Long, Wei Wang, and Atif Memon.
     In <em>Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)</em>, 2022. pp. 1291-1301.
+    </p>
+
+    <h2>Abstract</h2>
+    <p>
+    Machine Learning (ML) has become the cornerstone of information retrieval (IR) software, as it can drive better user experience by leveraging information-rich data and complex models. However, evaluating the emergent behavior of ML-based IR software can be challenging with traditional software testing approaches: when developers modify the software, they cannot often extract useful information from individual test instances; rather, they seek to holistically verify whether&mdash;and where&mdash;their modifications caused significant regressions or improvements at scale. In this paper, we introduce not only such a holistic approach to evaluate the system-level behavior of the software, but also the concept of a <em>defect class</em>, which represents a partition of the input space on which the ML-based software does measurably worse for an existing feature or on which the ML task is more challenging for a new feature. We leverage large volumes of functional test cases, automatically obtained, to derive these defect classes, and propose new ways to improve the IR software from an end-user's perspective. Applying our approach on a real production Search-AutoComplete system that contains a query interpretation ML component, we demonstrate that (1) our holistic metrics successfully identified two regressions and one improvement, where all 3 were independently verified with retrospective A/B experiments, (2) the automatically obtained defect classes provided actionable insights during early-stage ML development, and (3) we also detected defect classes at the finer sub-component level for which there were significant regressions, which we blocked prior to different releases.
     </p>
 
     <p>

@@ -27,12 +27,17 @@
 
     <p>
     <b>Download:</b>
-    <a href="https://doi.org/10.1145/3377813.3381370" target="_blank" rel="noopener">DOI</a> &middot; <a href="https://dl.acm.org/doi/pdf/10.1145/3377813.3381370" target="_blank" rel="noopener">PDF (ACM)</a>.
+    <a href="KowalczykFlakyApple_ICSE2020.pdf">PDF</a> &middot; <a href="https://doi.org/10.1145/3377813.3381370" target="_blank" rel="noopener">DOI</a> &middot; <a href="https://dl.acm.org/doi/pdf/10.1145/3377813.3381370" target="_blank" rel="noopener">PDF (ACM)</a>.
     </p>
 
     <p>
     &#8220;Modeling and Ranking Flaky Tests at Apple&#8221; by Emily Kowalczyk, Karan Nair, Zebao Gao, Leo Silberstein, Teng Long, and Atif Memon.
     In <em>Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)</em>, 2020. pp. 110-119.
+    </p>
+
+    <h2>Abstract</h2>
+    <p>
+    Test flakiness&mdash;inability to reliably repeat a test's Pass/Fail outcome&mdash;continues to be a significant problem in Industry, adversely impacting continuous integration and test pipelines. Completely eliminating flaky tests is not a realistic option as a significant fraction of system tests (typically non-hermetic) for services-based implementations exhibit some level of flakiness. In this paper, we view the flakiness of a test as a rankable value, which we quantify, track and assign a confidence. We develop two ways to model flakiness, capturing the randomness of test results via <em>entropy</em>, and the temporal variation via <em>flipRate</em>, and aggregating these over time. We have implemented our flakiness scoring service and discuss how its adoption has impacted test suites of two large services at Apple. We show how flakiness is distributed across the tests in these services, including typical score ranges and outliers. The flakiness scores are used to monitor and detect changes in flakiness trends. Evaluation results demonstrate near perfect accuracy in ranking, identification and alignment with human interpretation. The scores were used to identify 2 causes of flakiness in the dataset evaluated, which have been confirmed, and where fixes have been implemented or are underway. Our models reduced flakiness by 44% with less than 1% loss in fault detection.
     </p>
 
     <p>
