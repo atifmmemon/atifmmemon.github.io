@@ -28,6 +28,7 @@ SHELL_TEMPLATE = """<!doctype html>
     <p class="affiliation">Apple</p>
     <ul class="links">
       <li><a href="https://www.linkedin.com/in/memonatif/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://scholar.google.com/citations?user=jJPSj0IAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
     </ul>
   </aside>
 
