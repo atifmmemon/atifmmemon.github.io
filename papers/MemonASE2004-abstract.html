@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Using Transient/Persistent Errors to Develop Automated Test Oracles for Event-Driven Software</title>
+</head>
+<body>
+
+<h1>Using Transient/Persistent Errors to Develop Automated Test Oracles for Event-Driven Software</h1>
+
+<p>
+<b>Download:</b>
+<a href="MemonASE2004.pdf">PDF</a>.
+</p>
+
+<p>
+&#8220;Using Transient/Persistent Errors to Develop Automated Test Oracles
+for Event-Driven Software&#8221;
+by Atif M. Memon and Qing Xie.
+In <em>ASE '04: Proceedings of the 19th IEEE international conference on
+Automated software engineering</em>, (Washington, DC, USA), 2004, pp.
+186-195.
+</p>
+
+<h2>Abstract</h2>
+
+<p>
+Today's software-intensive systems contain an important class of software,
+namely event-driven software (EDS). All EDS take events as input, change
+their state, and (perhaps) output an event sequence. EDS is typically
+implemented as a collection of event-handlers designed to respond to
+individual events. The nature of EDS creates new challenges for test
+automation. In this paper, we focus on those relevant to automated test
+oracles. A test oracle is a mechanism that determines whether a software
+executed correctly for a test case. A test case for an EDS consists of a
+sequence of events. The test case is executed on the EDS, one event at a
+time. Errors in the EDS may iaappearls and later "disappear" at several
+points (e.g., after an event is executed) during test case execution.
+Because of the behavior of these transient (those that disappear) and
+persistent (those that don't disappear) errors, EDS require complex and
+expensive test oracles that compare the expected and actual output
+multiple times during test case execution. We leverage our previous work
+to study several applications and observe the occurrence of
+persistent/transient errors. Our studies show that in practice, a large
+number of errors in EDS are transient and that there are specific classes
+of events that lead to transient errors. We use the results of this study
+to develop a new test oracle that compares the expected and actual output
+at strategic points during test case execution. We show that the oracle is
+effective at detecting errors and efficient in terms of resource
+utilization. 
+
+</p>
+<p>
+<b>Download:</b>
+<a href="MemonASE2004.pdf">PDF</a>.
+</p>
+
+<p>
+<b>BibTeX entry:</b>
+</p>
+<pre>
+@inproceedings{MemonASE2004,
+   author = {Atif M. Memon and Qing Xie},
+   title = {Using Transient/Persistent Errors to Develop Automated Test
+	Oracles for Event-Driven Software},
+   booktitle = {ASE '04: Proceedings of the 19th IEEE international
+	conference on Automated software engineering},
+   pages = {186--195},
+   publisher = {IEEE Computer Society},
+   address = {Washington, DC, USA},
+   year = {2004},
+   isbn = {0-7695-2131-2}
+}
+</pre>
+
+
+
+<hr />
+
+<p>
+Back to <a href="./">Atif Memon's Publications</a>.
+</p>
+
+</body>
+</html>
