@@ -44,7 +44,7 @@ PAGE = """<!doctype html>
     &#8220;{title}&#8221; by {authors}.
     In <em>{venue}</em>, {year}.{pages_phrase}
     </p>
-
+{abstract_section}
     <p>
     <b>BibTeX entry:</b>
     </p>
@@ -84,6 +84,30 @@ ENTRIES = [
         "pages": "pp. 117483-117503, vol. 12",
         "pdf": "Srivastava_Memon_2024_QA_Taxonomy.pdf",
         "extra": [("arXiv:2406.13232", "https://arxiv.org/abs/2406.13232")],
+        "abstract": (
+            "Open Domain Question Answering (ODQA) within natural language "
+            "processing involves building systems that answer factual "
+            "questions using large-scale knowledge corpora. Recent advances "
+            "stem from the confluence of several factors, such as large-scale "
+            "training datasets, deep learning techniques, and the rise of "
+            "large language models. High-quality datasets are used to train "
+            "models on realistic scenarios and enable the evaluation of the "
+            "system on potentially unseen data. Standardized metrics "
+            "facilitate comparisons between different ODQA systems, allowing "
+            "researchers to objectively track advancements in the field. Our "
+            "study presents a thorough examination of the current landscape "
+            "of ODQA benchmarking by reviewing 52 datasets and 20 evaluation "
+            "techniques across textual and multimodal modalities. We "
+            "introduce a novel taxonomy for ODQA datasets that incorporates "
+            "both the modality and difficulty of the question types. "
+            "Additionally, we present a structured organization of ODQA "
+            "evaluation metrics along with a critical analysis of their "
+            "inherent trade-offs. Our study aims to empower researchers by "
+            "providing a framework for the robust evaluation of modern "
+            "question-answering systems. We conclude by identifying the "
+            "current challenges and outlining promising avenues for future "
+            "research and development."
+        ),
         "bibtex": """@article{SrivastavaMemonIEEEAccess2024,
    author = {Akchay Srivastava and Atif Memon},
    title = {Toward Robust Evaluation: A Comprehensive Taxonomy of Datasets
@@ -284,6 +308,14 @@ ENTRIES = [
 def main() -> int:
     for e in ENTRIES:
         pages_phrase = f" {e['pages']}." if e["pages"] else ""
+        abstract = e.get("abstract")
+        if abstract:
+            abstract_section = (
+                "\n    <h2>Abstract</h2>\n"
+                f"    <p>\n    {abstract}\n    </p>\n"
+            )
+        else:
+            abstract_section = ""
         html = PAGE.format(
             title=e["title"],
             authors=e["authors"],
@@ -291,6 +323,7 @@ def main() -> int:
             year=e["year"],
             pages_phrase=pages_phrase,
             downloads=download_block(e["pdf"], e["extra"]),
+            abstract_section=abstract_section,
             bibtex=e["bibtex"],
         )
         out = PAPERS / f"{e['key']}-abstract.html"
