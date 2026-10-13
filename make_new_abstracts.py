@@ -27,6 +27,8 @@ PAGE = """<!doctype html>
     <ul class="links">
       <li><a href="https://www.linkedin.com/in/memonatif/" target="_blank" rel="noopener">LinkedIn</a></li>
       <li><a href="https://scholar.google.com/citations?user=jJPSj0IAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+      <li><a href="https://dblp.org/pid/m/AtifMMemon.html" target="_blank" rel="noopener">DBLP</a></li>
+      <li><a href="https://www.semanticscholar.org/author/144660366" target="_blank" rel="noopener">Semantic Scholar</a></li>
     </ul>
   </aside>
 
