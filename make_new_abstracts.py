@@ -23,7 +23,7 @@ PAGE = """<!doctype html>
   <aside class="sidebar">
     <img src="../assets/photo.jpg" alt="Atif Memon" class="avatar" />
     <h1>Atif Memon</h1>
-    <p class="affiliation">Apple</p>
+    <p class="affiliation">Distinguished Engineer, Apple</p>
     <ul class="links">
       <li><a href="https://www.linkedin.com/in/memonatif/" target="_blank" rel="noopener">LinkedIn</a></li>
       <li><a href="https://scholar.google.com/citations?user=jJPSj0IAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
@@ -33,6 +33,9 @@ PAGE = """<!doctype html>
   <nav class="topnav">
     <a href="../index.html">About</a>
     <a href="../publications.html" class="active">Publications</a>
+    <a href="../service.html">Service</a>
+    <a href="../talks.html">Talks</a>
+    <a href="../awards.html">Awards</a>
   </nav>
 
   <main class="abstract">

@@ -157,6 +157,17 @@ main p { font-size: 16px; }
   font-size: 13px;
 }
 
+.flat-list {
+  padding-left: 20px;
+  margin: 0 0 24px;
+}
+
+.flat-list li {
+  padding: 4px 0;
+  font-size: 15px;
+  color: var(--color-text);
+}
+
 main.abstract h1 {
   font-size: 26px;
   line-height: 1.3;
