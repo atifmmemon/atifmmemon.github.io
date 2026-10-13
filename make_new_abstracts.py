@@ -31,7 +31,6 @@ PAGE = """<!doctype html>
   </aside>
 
   <nav class="topnav">
-    <a href="../index.html">About</a>
     <a href="../publications.html" class="active">Publications</a>
     <a href="../service.html">Service</a>
     <a href="../talks.html">Talks</a>

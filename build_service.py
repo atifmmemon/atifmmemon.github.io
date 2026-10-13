@@ -302,7 +302,6 @@ def main():
   </aside>
 
   <nav class="topnav">
-    <a href="index.html">About</a>
     <a href="publications.html">Publications</a>
     <a href="service.html" class="active">Service</a>
     <a href="talks.html">Talks</a>
