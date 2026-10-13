@@ -36,6 +36,7 @@ PAGE = """<!doctype html>
     <a href="../service.html">Service</a>
     <a href="../talks.html">Talks</a>
     <a href="../awards.html">Awards</a>
+    <a href="../writing.html">Writing</a>
   </nav>
 
   <main class="abstract">

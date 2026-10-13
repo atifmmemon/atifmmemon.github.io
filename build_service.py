@@ -11,13 +11,19 @@ ROOT = Path(__file__).resolve().parent
 
 ED_BOARDS = [
     # (name, role, years, org)
-    ("ACM Computing Surveys (CSUR)", "Editorial Board Member", "2016&ndash;Present", "ACM"),
+    ("ACM Computing Surveys (CSUR)", "Editorial Board Member", "Oct 2016&ndash;Present", "ACM"),
+    ("Empirical Software Engineering (EMSE)", "Board of Advisors", "Nov 2020", "Springer"),
     ("Advances in Computers", "Series Editor", "&mdash;", "Elsevier"),
     ("Empirical Software Engineering (EMSE)", "Editorial Board Member", "&mdash;", "Springer"),
     ("Software Testing, Verification and Reliability (STVR)", "Editorial Board Member", "&mdash;", "Wiley"),
     ("The Open Software Engineering Journal (OSE)", "Editorial Board Member", "&mdash;", "Bentham Science"),
     ("Canadian Journal of Pure and Applied Sciences (CJPAS)", "Editorial Board Member", "&mdash;", "SENRA Academic Publishers"),
     ("IEEE Transactions on Software Engineering", "Guest Associate Editor", "Oct 2003", "IEEE"),
+]
+
+MEMBERSHIPS = [
+    ("Association for Computing Machinery (ACM)", "Member", "Aug 1997&ndash;Present", "ACM"),
+    ("IEEE Computer Society", "Member", "Aug 1997&ndash;Present", "IEEE"),
 ]
 
 # Chair, Steering Committee, Organizing, Awards Chair, PC Chair,
@@ -30,7 +36,7 @@ LEADERSHIP = [
     ("14th IEEE ICST", "Industry Co-Chair (Organizing Committee)", "2023", "&mdash;"),
     ("14th IEEE ICST — Industry Track", "Program Committee Co-Chair", "2023", "&mdash;"),
     ("International Conference on Software Testing, Verification and Validation (ICST)", "Steering Committee Member", "2020&ndash;2023", "IEEE"),
-    ("12th IEEE International Conference on Software Testing, Verification and Validation (ICST)", "Technical Program Committee Chair", "2019", "Xi'an, China"),
+    ("12th IEEE International Conference on Software Testing, Verification and Validation (ICST)", "Technical Program Committee Co-Chair", "2019", "Xi'an, China"),
     ("10th IEEE International Conference on Software Testing, Verification and Validation (ICST)", "General Chair", "2017", "Tokyo, Japan"),
     ("38th International Conference on Software Engineering (ICSE)", "Awards Chair", "2016", "Austin, Texas"),
     ("ICST 2016 PhD Symposium", "Panel Member", "2016", "&mdash;"),
@@ -271,6 +277,7 @@ def main():
     body_parts.append(section("Conference Leadership &amp; Chair Roles", "\n".join(entry_html(*e) for e in LEADERSHIP)))
     body_parts.append(section("Program Committees", "\n".join(entry_html(*e) for e in PROGRAM_COMMITTEES)))
     body_parts.append(section("Agency Review Panels &amp; External Service", "\n".join(entry_html(*e) for e in AGENCY)))
+    body_parts.append(section("Professional Memberships", "\n".join(entry_html(*e) for e in MEMBERSHIPS)))
     body_parts.append(flat_section("Journals I Review For", REVIEWING_JOURNALS))
     body_parts.append(flat_section("Conferences I Review For (outside PC roles)", REVIEWING_CONFS))
     body_parts.append(section("Book &amp; Book-Proposal Reviewing", "\n".join(entry_html(*e) for e in REVIEWING_BOOKS)))
@@ -300,6 +307,7 @@ def main():
     <a href="service.html" class="active">Service</a>
     <a href="talks.html">Talks</a>
     <a href="awards.html">Awards</a>
+    <a href="writing.html">Writing</a>
   </nav>
 
   <main>
