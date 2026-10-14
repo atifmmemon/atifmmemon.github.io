@@ -12,12 +12,11 @@ ROOT = Path(__file__).resolve().parent
 ED_BOARDS = [
     # (name, role, years, org)
     ("ACM Computing Surveys (CSUR)", "Editorial Board Member", "Oct 2016&ndash;Present", "ACM"),
-    ("Empirical Software Engineering (EMSE)", "Board of Advisors", "Nov 2020", "Springer"),
-    ("Advances in Computers", "Series Editor", "&mdash;", "Elsevier"),
-    ("Empirical Software Engineering (EMSE)", "Editorial Board Member", "&mdash;", "Springer"),
-    ("Software Testing, Verification and Reliability (STVR)", "Editorial Board Member", "&mdash;", "Wiley"),
-    ("The Open Software Engineering Journal (OSE)", "Editorial Board Member", "&mdash;", "Bentham Science"),
-    ("Canadian Journal of Pure and Applied Sciences (CJPAS)", "Editorial Board Member", "&mdash;", "SENRA Academic Publishers"),
+    ("Empirical Software Engineering (EMSE)", "Board of Advisors (past)", "Nov 2020", "Springer"),
+    ("Advances in Computers", "Series Editor (past)", "&mdash;", "Elsevier"),
+    ("Software Testing, Verification and Reliability (STVR)", "Editorial Board Member (past)", "&mdash;", "Wiley"),
+    ("The Open Software Engineering Journal (OSE)", "Editorial Board Member (past)", "&mdash;", "Bentham Science"),
+    ("Canadian Journal of Pure and Applied Sciences (CJPAS)", "Editorial Board Member (past)", "&mdash;", "SENRA Academic Publishers"),
     ("IEEE Transactions on Software Engineering", "Guest Associate Editor", "Oct 2003", "IEEE"),
 ]
 
@@ -196,7 +195,7 @@ PROGRAM_COMMITTEES = [
 ]
 
 AGENCY = [
-    ("National Academy of Sciences — PEER Program (NSF / USAID / National Academies partnership)", "Panelist", "&mdash;", "USA"),
+    ("National Academy of Sciences — PEER Program (NSF / USAID / National Academies partnership)", "Panelist (one-time)", "&mdash;", "USA"),
     ("National Academy of Sciences — Pakistan-U.S. Science and Technology Cooperative Program (USAID)", "Panelist (Computer Science &amp; Information Technology)", "2011", "USA"),
     ("National Academy of Sciences — Pakistan-U.S. Science and Technology Cooperative Program (USAID)", "Panelist (Computer Science &amp; Information Technology)", "2010", "USA"),
     ("NSF Research Proposals Review Panel", "Panelist", "2009", "National Science Foundation"),
