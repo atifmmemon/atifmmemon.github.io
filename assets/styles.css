@@ -168,6 +168,26 @@ main p { font-size: 16px; }
   color: var(--color-text);
 }
 
+.venue-list {
+  list-style: none;
+  padding-left: 16px;
+  margin: 4px 0 0;
+}
+
+.venue-list li {
+  padding: 2px 0;
+  font-size: 13px;
+  color: var(--color-muted);
+  position: relative;
+}
+
+.venue-list li::before {
+  content: "·";
+  position: absolute;
+  left: -12px;
+  color: var(--color-muted);
+}
+
 main.abstract h1 {
   font-size: 26px;
   line-height: 1.3;
