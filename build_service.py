@@ -305,9 +305,7 @@ def main():
       <li><a href="https://scholar.google.com/citations?user=jJPSj0IAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
       <li><a href="https://dblp.org/pid/m/AtifMMemon.html" target="_blank" rel="noopener">DBLP</a></li>
       <li><a href="https://www.semanticscholar.org/author/144660366" target="_blank" rel="noopener">Semantic Scholar</a></li>
-    </ul>
-    <p class="visitor-count"><img src="https://visitor-badge.laobi.icu/badge?page_id=atifmmemon.github.io" alt="visitors" /></p>
-  </aside>
+    </ul>  </aside>
 
   <nav class="topnav">
     <a href="publications.html">Publications</a>
