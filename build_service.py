@@ -17,7 +17,7 @@ ED_BOARDS = [
     ("Software Testing, Verification and Reliability (STVR)", "Editorial Board Member (past)", "&mdash;", "Wiley"),
     ("The Open Software Engineering Journal (OSE)", "Editorial Board Member (past)", "&mdash;", "Bentham Science"),
     ("Canadian Journal of Pure and Applied Sciences (CJPAS)", "Editorial Board Member (past)", "&mdash;", "SENRA Academic Publishers"),
-    ("IEEE Transactions on Software Engineering", "Guest Associate Editor", "Oct 2003", "IEEE"),
+    ("IEEE Transactions on Software Engineering", "Guest Associate Editor", "Oct 2003", "&mdash;"),
 ]
 
 MEMBERSHIPS = [
@@ -29,7 +29,7 @@ MEMBERSHIPS = [
 # PhD Symposium Chair, Workshops Chair, Session Chair, Panel Member,
 # Mentoring Committee, Advisory Board, Publications Chair, Elected committees.
 LEADERSHIP = [
-    ("IEEE Computer Society — Technical Council on Software Engineering (TCSE)", "Executive Committee Member (Elected)", "2022&ndash;2025", "IEEE Computer Society"),
+    ("IEEE Computer Society — Technical Council on Software Engineering (TCSE)", "Executive Committee Member (Elected)", "2022&ndash;2025", "&mdash;"),
     ("16th IEEE International Conference on Software Testing, Verification and Validation (ICST)", "Panelist &mdash; Research, Industry, and Emerging Frontiers", "2025", "Naples, Italy"),
     ("16th IEEE International Conference on Software Testing, Verification and Validation (ICST)", "Session Chair &mdash; Testing ML Systems and Fault Localisation", "2025", "Naples, Italy"),
     ("14th IEEE International Conference on Software Testing, Verification and Validation (ICST)", "Industry Co-Chair &mdash; Organizing Committee", "2023", "&mdash;"),
@@ -63,8 +63,8 @@ LEADERSHIP = [
     ("Proceedings of the 2003 IEEE International Conference on Information Reuse and Integration (IRI)", "Associate Editor", "2003", "Las Vegas, NV"),
     ("IEEE International Conference on Information Reuse and Integration (IRI)", "Publications Chair", "2003", "Las Vegas, NV"),
     ("10th International Symposium on the Foundations of Software Engineering (FSE-10)", "Session Chair &mdash; Dynamic Program Analysis", "2002", "Charleston, SC"),
-    ("15th International Internet &amp; Software Quality Week (QW)", "Advisory Board", "2002", "San Francisco, CA"),
-    ("14th International Internet &amp; Software Quality Week (QW)", "Advisory Board", "2001", "San Francisco, CA"),
+    ("15th International Internet &amp; Software Quality Week (QW)", "Advisory Board Member", "2002", "San Francisco, CA"),
+    ("14th International Internet &amp; Software Quality Week (QW)", "Advisory Board Member", "2001", "San Francisco, CA"),
 ]
 
 # All Program Committee memberships, newest first. Each hand-reviewed.
@@ -236,9 +236,9 @@ REVIEWING_CONFS = [
 ]
 
 REVIEWING_BOOKS = [
-    ("Building Quality into COTS Components &ndash; Testing and Debugging", "Book Reviewer", "&mdash;", "Eds. Sami Beydeda &amp; Volker Gruhn"),
-    ("How to Break Security: A Practical Guide to Testing Your Software's Security", "Book Reviewer", "&mdash;", "James Whitaker &amp; Herbert H. Thompson"),
-    ("The Information Systems Group Project", "Book Reviewer", "&mdash;", "David A. Deeks, Pearson Education"),
+    ("Building Quality into COTS Components &ndash; Testing and Debugging (eds. Sami Beydeda &amp; Volker Gruhn)", "Book Reviewer", "&mdash;", "&mdash;"),
+    ("How to Break Security: A Practical Guide to Testing Your Software's Security (James Whitaker &amp; Herbert H. Thompson)", "Book Reviewer", "&mdash;", "&mdash;"),
+    ("The Information Systems Group Project (David A. Deeks, Pearson Education)", "Book Reviewer", "&mdash;", "&mdash;"),
     ("Cambridge University Press — Book Proposal", "Book Proposal Reviewer", "15 Sep 2006", "Cambridge, UK"),
     ("Cambridge University Press — Book Proposal", "Book Proposal Reviewer", "24 Jul 2006", "Cambridge, UK"),
     ("Business Education Publishers Limited — Book Proposal", "Book Proposal Reviewer", "5 Dec 2003", "UK"),
